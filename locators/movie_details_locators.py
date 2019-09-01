@@ -3,4 +3,4 @@ class MovieDetailsLocators:
     YEAR = '#articleBody div.filmMainHeader div.hdr h1 span.halfSize'
     DESCRIPTION = '#articleBody div.filmMainHeader div.filmPlot p.text'
     GENRES = '#articleBody div.filmMainHeader ul.genresList li a'
-    ACTORS = 'div.filmCastBox tr td:nth-child(2)'
+    ACTORS = 'div.filmCastBox tr td:nth-child(2)'  # second td tag
