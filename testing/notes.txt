@@ -1,0 +1,195 @@
+
+--------------------------------------------- Running the app ------------------------------------
+
+Welcome to My Movies App. Add, delete, search for movies using IMDb web page.
+
+Choose a list you want to work with or quit:
+
+f - favorite movies
+p - past (movies you already saw)
+w - watchlist (movies to see in the future)
+q - quit
+
+>> f  --------------------------- Options inside any file -----------------------------------
+
+Welcome to your (favorite movies) list! - in () variable
+
+What would you like to do?
+
+a - add new movie
+d - display all movies
+s - search for particular movie/s
+r - remove a movie
+q - quit
+
+>> a ------------------------------ Adding a movie --------------------------------------
+
+Enter a IMDb movie link:
+
+# all movie's features get printed out in this format
+
+Title: ............
+Year: ............
+Duration: ............
+Genres: ............
+Actors: ............
+Description: ............
+
+Movie (title) successfully added to favorite movies :D
+
+What would you like to do?
+
+a - add new movie
+d - display all movies
+s - search for particular movie/s
+r - remove a movie
+q - quit
+
+>> d ------------------------------ Displaying all movies --------------------------------------
+
+Movie 1
+
+Title: ............
+Year: ............
+Duration: ............
+Genres: ............
+Actors: ............
+Description: ............
+
+Movie 2
+
+Title: ............
+Year: ............
+Duration: ............
+Genres: ............
+Actors: ............
+Description: ............
+
+etc....
+
+
+What would you like to do?
+
+a - add new movie
+d - display all movies
+s - search for particular movie/s
+r - remove a movie
+q - quit
+
+>> s ------------------------------ Searching a particular movie --------------------------------------
+
+Using which feature would you like to find a movie?
+
+t - title
+y - year
+g - genre
+a - actor
+
+>> t ----------- Searching by title ---------
+
+Enter movie title to see all its' features: (Inception)
+
+Title: Inception
+Year: ............
+Duration: ............
+Genres: ............
+Actors: ............
+Description: ............
+
+What would you like to do?
+
+a - add new movie
+d - display all movies
+s - search for particular movie/s
+r - remove a movie
+q - quit
+
+s -> y ---------- Searching by year -------------
+
+Enter a year to see all the movies released then:
+
+Movie 1
+
+Title: ............
+Year: ............
+Duration: ............
+Genres: ............
+Actors: ............
+Description: ............
+
+Movie 2
+
+Title: ............
+Year: ............
+Duration: ............
+Genres: ............
+Actors: ............
+Description: ............
+
+.....
+
+>> g ---------- Searching by genre -------------
+
+Enter a genre to see all the movies with that category:
+
+....
+
+>> a ---------- Searching by actor -------------
+
+Enter first name and last name of an actor to see all the movies starred by this person:
+
+.....
+
+What would you like to do?
+
+a - add new movie
+d - display all movies
+s - search for particular movie/s
+r - remove a movie
+q - quit
+
+>> r ------------------------------ Removing a particular movie using title --------------------------------------
+
+Enter the title of a movie you want to remove:
+
+Title: ............
+Year: ............
+Duration: ............
+Genres: ............
+Actors: ............
+Description: ............
+
+Are you sure you want to remove ....... movie?
+
+- y
+- n
+
+>> y
+
+Movie ...... successfully removed.
+
+>> n
+
+What would you like to do?
+
+a - add new movie
+d - display all movies
+s - search for particular movie/s
+r - remove a movie
+q - quit
+
+>> q
+
+Thanks for using me! :) See you soon!
+
+--------------------------------- Planning --------------------------------
+
+Movies are dictionaries:
+{
+title: str,
+year: int,
+duration: str,
+genres: [],
+actors: [],
+description: str
+}
