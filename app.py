@@ -95,18 +95,6 @@ def menu_inside_file(file_short):
         action = input(OPTIONS_INSIDE_FILE)
 
 
-'''
-What would you like to do?
-
-a - add new movie
-d - display all movies
-s - search for particular movie/s
-r - remove a movie
-q - quit
-
->> '''
-
-
 def main_menu():
     print("\nWelcome to My Movies App. Add, delete, search for movies using IMDb web page.")
     user_file_short = input(FILE_CHOICE)
